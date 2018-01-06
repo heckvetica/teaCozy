@@ -13,8 +13,8 @@ body {
     flex-direction: column;
 }
 
-.anchor {
-    margin-top: 79px;
+.anchor:target {
+    padding-top: 79px;
 }
 
 /* Header */
@@ -97,7 +97,6 @@ name {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    align-content: center;
     height: 500px;
     background-image: url('../img/img-locations-background.jpg');
 }
@@ -117,12 +116,15 @@ name {
     height: 300px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
 }
 
 .store {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    margin: 0 20px;
     width: 300px;
-    margin-left: 40px;
     background-color: black;
     opacity: 1;
 }
