@@ -1,10 +1,3 @@
-/* Remove */
-div {
-    border: 1px solid white;
-}
-
-/* Remove */
-
 body {
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
@@ -19,6 +12,11 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.anchor {
+    margin-top: 79px;
+}
+
 /* Header */
 
 header {
@@ -52,7 +50,7 @@ a {
 
 /* Hero */
 
-#hero {
+#mission {
     display: flex;
     align-items: center;
     margin: 0 auto;
@@ -62,7 +60,7 @@ a {
     background-image: url('../img/img-mission-background.jpg');
 }
 
-.mission {
+.hero {
     width: 1200px;
     background-color: black;
 }
