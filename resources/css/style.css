@@ -80,14 +80,14 @@ a {
 
 .listing {
     width: 300px;
-    margin: 0 10px; /*FIX ME*/
+    margin: 15px;
 }
 
 .item {
     height: 200px;
 }
 
-name {
+.name {
     margin-top: 10px;
 }
 
@@ -97,8 +97,10 @@ name {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    width: 1200px;
     height: 500px;
     background-image: url('../img/img-locations-background.jpg');
+    
 }
 
 .test h2 {
